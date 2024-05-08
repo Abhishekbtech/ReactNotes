@@ -1,12 +1,10 @@
 import React,{useContext} from 'react'
-import Context from '../Context/Context'
 
-function Child1() {
-    const data = useContext(Context)
-    const {age} = data
+function Child1({count}) {
+    
     return (
         <>
-            <h1>Child1 {age}</h1>
+            <h1>Child1 {count}</h1>
         </>
     )
 }
