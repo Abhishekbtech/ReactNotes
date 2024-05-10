@@ -5,6 +5,11 @@ import Studentlist from './Component/1.Basic/3.ListComponent/Studentlist';
 import Conditional from './Component/1.Basic/4.ConditionalRendering/Conditional';
 import MultipleState from './Component/1.Basic/5.MultipleState/MultipleState';
 import SingleState from './Component/1.Basic/5.MultipleState/SingleState';
+import BasicRef from './Component/10.UseRef/1.Basic/BasicRef';
+import InputComponentForm from './Component/10.UseRef/2.Imp/InputComponentForm';
+import ShowLatestValAndPrevVal from './Component/10.UseRef/2.Imp/ShowLatestValAndPrevVal';
+import SimpleFormInputBoxComponent from './Component/10.UseRef/2.Imp/SimpleFormInputBoxComponent';
+import UndoMessage from './Component/10.UseRef/2.Imp/UndoMessage';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
@@ -35,8 +40,13 @@ function App() {
       {/* <DigitalClock/> */}
       {/* <CounterClassComponent/> */}
       {/* <ReactRouter/> */}
-      <MainContext/>
+      {/* <MainContext/> */}
       {/* <CREDwithLo/> */}
+      {/* <BasicRef/> */}
+      {/* <ShowLatestValAndPrevVal/> */}
+      {/* <SimpleFormInputBoxComponent/> */}
+      {/* <InputComponentForm/> */}
+      <UndoMessage/>
     </div>
   );
 }
