@@ -10,6 +10,7 @@ import InputComponentForm from './Component/10.UseRef/2.Imp/InputComponentForm';
 import ShowLatestValAndPrevVal from './Component/10.UseRef/2.Imp/ShowLatestValAndPrevVal';
 import SimpleFormInputBoxComponent from './Component/10.UseRef/2.Imp/SimpleFormInputBoxComponent';
 import UndoMessage from './Component/10.UseRef/2.Imp/UndoMessage';
+import CounterReducer from './Component/11.UseReduce/CounterReducer';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
@@ -46,7 +47,8 @@ function App() {
       {/* <ShowLatestValAndPrevVal/> */}
       {/* <SimpleFormInputBoxComponent/> */}
       {/* <InputComponentForm/> */}
-      <UndoMessage/>
+      {/* <UndoMessage/> */}
+      <CounterReducer/>
     </div>
   );
 }
