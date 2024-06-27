@@ -4,7 +4,7 @@ class CounterClassComponent extends Component {
 
     state = {
         count: 0,
-        name: "utkarsh"
+        name: "Abhi"
     }
 
     decrement() {
