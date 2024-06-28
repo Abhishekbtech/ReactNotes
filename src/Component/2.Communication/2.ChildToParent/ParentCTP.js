@@ -3,8 +3,9 @@ import ChildCTP from './ChildCTP'
 
 function ParentCTP() {
     const information = 'i am getting value from the Parent'
-    const childCommunicatorHandler = (infomation) => {
-        console.log(infomation, "Reacived By Parent");
+
+    const childCommunicatorHandler = (info) => {
+        console.log(info, "Reacived By Parent");
     }
 
     return (

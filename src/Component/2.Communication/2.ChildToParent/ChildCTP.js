@@ -6,9 +6,9 @@ function ChildCTP(props) {
     const { info, name, childCommunicatorHandler } = props
     return (
         <>
-            <div>ChildCTP {info} {name}
+            <div>ChildCTP {name} {info} 
                 <div>
-                    <button onClick={() => { childCommunicatorHandler("Hello i am from Child")}}>
+                    <button onClick={() => { childCommunicatorHandler("Hello i am from Child  ===>  ")}}>
                         Emergency Infomation
                     </button>
                 </div>
