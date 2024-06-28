@@ -1,5 +1,7 @@
 import React, { useReducer } from 'react'
 
+// useReducer is a React Hook that provides a way to manage state in a component, particularly when dealing with complex state logic or multiple state transitions. It is an alternative to useState and is particularly useful for managing state that involves multiple sub-values or when the next state depends on the previous one.
+
 const reducerFunction = (state, action) => {
     const { type } = action;
 
@@ -18,12 +20,7 @@ const reducerFunction = (state, action) => {
             ...state,
             counter: 0,
         };
-    } else if (type === "CHANGENAME") {
-        return {
-            ...state,
-            name: "ASDASDASD NAME",
-        };
-    } else {
+    }else {
         return state;
     }
 }

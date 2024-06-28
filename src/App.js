@@ -52,11 +52,11 @@ function App() {
       {/* <SimpleFormInputBoxComponent/> */}
       {/* <InputComponentForm/> */}
       {/* <UndoMessage/> */}
-      {/* <CounterReducer/> */}
+      <CounterReducer/>
       {/* <Parent/> */}
       {/* <ParentVP/> */}
       {/* <ParentFP/> */}
-      <Redux/>
+      {/* <Redux/> */}
     </div>
   );
 }
