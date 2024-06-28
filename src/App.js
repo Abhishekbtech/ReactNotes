@@ -37,7 +37,7 @@ function App() {
       {/* <SingleState/> */}
       {/* <MultipleState/> */}
       {/* <ParentPTC/> */}
-      {/* <ParentCTP/> */}
+      <ParentCTP/>
       {/* <ParentS/> */}
       {/* <KeysAndListProblem/> */}
       {/* <KeysAndListSouction/> */}
@@ -52,7 +52,7 @@ function App() {
       {/* <SimpleFormInputBoxComponent/> */}
       {/* <InputComponentForm/> */}
       {/* <UndoMessage/> */}
-      <CounterReducer/>
+      {/* <CounterReducer/> */}
       {/* <Parent/> */}
       {/* <ParentVP/> */}
       {/* <ParentFP/> */}
