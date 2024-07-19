@@ -1,4 +1,7 @@
 import './App.css';
+import StopWatch from './Component/0.test/StopWatch';
+import Test1 from './Component/0.test/Test1';
+import Watch from './Component/0.test/Watch';
 import Hello from './Component/1.Basic/1.HelloWord/Hello';
 import CountApp from './Component/1.Basic/2.CountApp/CountApp';
 import Studentlist from './Component/1.Basic/3.ListComponent/Studentlist';
@@ -27,6 +30,7 @@ import ReactRouter from './Component/8.ReactRouting/ReactRouter';
 import MainContext from './Component/9.ContextApi/1.Normal/Component/MainContext';
 import CREDwithLo from './Component/9.ContextApi/3.CRED/CREDwithLo';
 
+
 function App() {
   return (
     <div className="App">
@@ -37,7 +41,7 @@ function App() {
       {/* <SingleState/> */}
       {/* <MultipleState/> */}
       {/* <ParentPTC/> */}
-      <ParentCTP/>
+      {/* <ParentCTP/> */}
       {/* <ParentS/> */}
       {/* <KeysAndListProblem/> */}
       {/* <KeysAndListSouction/> */}
@@ -57,6 +61,9 @@ function App() {
       {/* <ParentVP/> */}
       {/* <ParentFP/> */}
       {/* <Redux/> */}
+      {/* <Watch/> */}
+      {/* <Test1/> */}
+      <StopWatch/>
     </div>
   );
 }
