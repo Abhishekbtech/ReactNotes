@@ -6,9 +6,9 @@ function ParentVP() {
     console.log('parent')
     const arr = useMemo(()=> [1, 2, 3, 4], [])
     // const arr = [1, 2, 3, 4]
-    const obj = {
-        name: 'abhi'
-    }
+    // const obj = {
+    //     name: 'abhi'
+    // }
 
     return (
         <>

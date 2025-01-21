@@ -29,6 +29,7 @@ import CounterClassComponent from './Component/7.ClassComponent/2.Counter/Count'
 import ReactRouter from './Component/8.ReactRouting/ReactRouter';
 import MainContext from './Component/9.ContextApi/1.Normal/Component/MainContext';
 import CREDwithLo from './Component/9.ContextApi/3.CRED/CREDwithLo';
+import Pr from "./Component/0.test/Pr"
 
 
 function App() {
@@ -63,7 +64,8 @@ function App() {
       {/* <Redux/> */}
       {/* <Watch/> */}
       {/* <Test1/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
+      <Pr/>
     </div>
   );
 }
