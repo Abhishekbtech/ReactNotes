@@ -6,11 +6,10 @@ function ListData(props) {
     return (
         <>
             <div style={{background:color}}>
-                <h1>{name}</h1>
+                <h3>{name}</h3>
                 <p>class : {classs}</p>
             </div>
-        </>
-        
+        </> 
     )
 }
 

@@ -2,12 +2,7 @@ import React from 'react'
 import ListData from './ListData';
 
 
-function Studentlist(props) {
-    // const { students = [
-    //     {"name":"Abhishek","classs":2, "color": "#ff6347"},  // red
-    //     {"name":"Ajay","classs":3, "color": "#4cd964"},      // green
-    //     {"name":"Rahul","classs":1},                          // default color
-    // ] } = props;
+function Studentlist() {
 
     const students = [
         {"name":"Abhishek","classs":2, "color": "#ff6347"},  // red
@@ -17,15 +12,7 @@ function Studentlist(props) {
 
     return (
         <>
-            <div>Studentlist</div>
-            {/* {
-                students.map((student, index) => {
-                    const {name, classs, color } = student;
-                    return(
-                        <ListData key={index} name={name} classs={classs} color={color}/>
-                    )
-                })
-            } */}
+            <h1>Studentlist</h1>
 
             {
                 students.map((student, index) => (
