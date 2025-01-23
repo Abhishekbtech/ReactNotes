@@ -42,7 +42,7 @@ function CountApp() {
             <h2>Count : {count}</h2>
             <p>The count will work only from 0 to 20</p>
 
-            <button onClick={addValue}>Increment</button>
+            <button onClick={addValue} style={{marginRight:'10px'}}>Increment</button>
             <button onClick={removeValue}>Decrement</button>
         </div>
     );
