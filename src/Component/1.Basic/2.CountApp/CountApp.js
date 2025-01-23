@@ -39,8 +39,8 @@ function CountApp() {
         <div >
             <h1>Counter App</h1>
 
-            <h2>count : {count}</h2>
-            <p>count will work in 0 to 20 only</p>
+            <h2>Count : {count}</h2>
+            <p>The count will work only from 0 to 20</p>
 
             <button onClick={addValue}>Increment</button>
             <button onClick={removeValue}>Decrement</button>
