@@ -7,8 +7,7 @@ function Conditional() {
     return (
         <>
             <div>Conditional</div>
-            <button onClick= {() => setValue(true)}>Day</button>
-
+            <button onClick= {() => setValue(true)} style={{marginRight:'10'}}>Day</button>
             <button onClick= {() => setValue(false)}>Night</button>
 
             {value === false && <Change color={"black"}/>}
