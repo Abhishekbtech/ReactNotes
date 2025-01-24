@@ -48,7 +48,7 @@ const LocalStorage = () => {
                         />
                     </label>
                 </div>
-                <button type="submit">Save</button>
+                <button type="submit">Store to local Storage</button>
             </form>
             <h2>Stored Data:</h2>
             <p>Username: {username}</p>
