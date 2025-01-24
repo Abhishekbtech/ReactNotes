@@ -7,7 +7,6 @@ function MultipleState() {
     return (
         <>
             <div style={{ margin: "20px", border: "1px solid black" }}>{name}</div>
-
             <div style={{ margin: "20px", border: "1px solid black" }}>{counter}</div>
 
             <button
@@ -24,6 +23,7 @@ function MultipleState() {
                 onClick={() => {
                     setName("Abhishek");
                 }}
+                style={{margin:'10px'}}
             >
                 Abhishek
             </button>
