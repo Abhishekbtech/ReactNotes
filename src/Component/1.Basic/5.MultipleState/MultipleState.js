@@ -6,6 +6,7 @@ function MultipleState() {
 
     return (
         <>
+            <h1>Multiple State</h1>
             <div style={{ margin: "20px", border: "1px solid black" }}>{name}</div>
             <div style={{ margin: "20px", border: "1px solid black" }}>{counter}</div>
 
