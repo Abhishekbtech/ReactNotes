@@ -5,6 +5,7 @@ import CountApp from './Component/1.Basic/2.CountApp/CountApp';
 import Studentlist from './Component/1.Basic/3.ListComponent/Studentlist';
 import Conditional from './Component/1.Basic/4.ConditionalRendering/Conditional';
 import MultipleState from './Component/1.Basic/5.MultipleState/MultipleState';
+import SingleState from './Component/1.Basic/5.MultipleState/SingleState';
 import LocalStorage from './Component/1.Basic/6.DataStorage/LocalStorage';
 import SessionStorage from './Component/1.Basic/6.DataStorage/SessionStorage';
 
@@ -17,6 +18,7 @@ function App() {
       <Studentlist/>
       <Conditional/>
       <MultipleState/>
+      <SingleState/>
       <LocalStorage/>
       <SessionStorage/>
     </div>

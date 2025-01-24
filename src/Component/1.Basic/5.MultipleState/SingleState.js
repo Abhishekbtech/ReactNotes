@@ -5,7 +5,7 @@ function SingleState() {
 
     return (
         <>  
-            <div>SingleState</div>
+            <h1>Single State</h1>
             <div style={{ margin: "20px", border: "1px solid black" }}>{state.name}</div>
             <div style={{ margin: "20px", border: "1px solid black" }}>{state.count}</div>
 
@@ -29,6 +29,7 @@ function SingleState() {
                         };
                     });
                 }}
+                style={{margin:10}}
             >
                 Abhishek
             </button>
