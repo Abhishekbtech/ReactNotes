@@ -4,7 +4,7 @@ function ChildS2(props) {
     const { info } = props
     return (
         <>
-            <h1>ChildS2</h1>
+            <h3>ChildS2</h3>
             <div>{info ? info : "NO Operation YET"}</div>
         </>
     )

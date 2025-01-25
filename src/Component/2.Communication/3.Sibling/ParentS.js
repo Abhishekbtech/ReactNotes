@@ -11,7 +11,7 @@ function ParentS() {
 
     return (
         <>
-            <h1>ParentS</h1>
+            <h1>Child to child Communication</h1>
             <ChildS1 handler={child1ToParentCommunicator}/>
             <ChildS2 info={info} />
         </>

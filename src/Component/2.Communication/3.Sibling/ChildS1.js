@@ -6,7 +6,7 @@ function ChildS1(props) {
 
     return (
         <>
-            <h1>Counter ChildS1</h1>
+            <h3>Counter ChildS1</h3>
             <div>{count}</div>
 
             <button
@@ -14,6 +14,7 @@ function ChildS1(props) {
                     setCount((oldVal) => oldVal - 1);
                     handler("DECREMENT");
                 }}
+                style={{marginRight:'10px'}}
             >
                 - dec
             </button>
