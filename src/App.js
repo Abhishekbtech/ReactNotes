@@ -8,6 +8,7 @@ import MultipleState from './Component/1.Basic/5.MultipleState/MultipleState';
 import SingleState from './Component/1.Basic/5.MultipleState/SingleState';
 import LocalStorage from './Component/1.Basic/6.DataStorage/LocalStorage';
 import SessionStorage from './Component/1.Basic/6.DataStorage/SessionStorage';
+import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       <SingleState/>
       <LocalStorage/>
       <SessionStorage/>
+
+
+      <ParentPTC/>
     </div>
   );
 }

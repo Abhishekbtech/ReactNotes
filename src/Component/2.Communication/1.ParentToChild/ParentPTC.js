@@ -5,7 +5,7 @@ function ParentPTC() {
     const infomation = "i am getting value from Parent"
     return (
         <>  
-            <h1>ParentPTC</h1>
+            <h1>Parent to Child Communication</h1>
             <ChildPTC info={infomation}/>
         </>
     )  
