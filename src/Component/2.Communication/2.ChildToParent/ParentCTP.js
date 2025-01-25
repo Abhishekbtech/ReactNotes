@@ -1,17 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ChildCTP from './ChildCTP'
 
 function ParentCTP() {
-    const information = 'i am getting value from the Parent'
+    const [childData, setChildData] = useState('')
 
     const childCommunicatorHandler = (info) => {
         console.log(info, "Reacived By Parent");
+        setChildData(info)
     }
 
     return (
         <>
-            <h1>ParentCTP</h1>
-            <ChildCTP info={information} name={'abhishek'}  childCommunicatorHandler={childCommunicatorHandler}/>
+            <h1>Child to parent Communication</h1>
+            <h3>{childData}</h3>
+            <ChildCTP childCommunicatorHandler={childCommunicatorHandler}/>
         </>
         
     )
