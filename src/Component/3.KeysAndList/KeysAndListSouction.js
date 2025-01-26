@@ -4,13 +4,13 @@ function KeysAndListSouction() {
     const [students, setStudents] = useState([])
     return (
         <>
-            <h1>KeysAndListSouction</h1>
+            <h1>Keys And List solution</h1>
             <div>
-                <input id="inputBox" type="text" placeholder='Enter Student Name'/>
+                <input id="inputBox1" type="text" placeholder='Enter Student Name'/>
 
                 <button
                     onClick={() => {
-                        const element = document.getElementById("inputBox");
+                        const element = document.getElementById("inputBox1");
                         const value = element.value;
                         setStudents((oldVal) => [value, ...oldVal]);
                     }}

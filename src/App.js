@@ -12,6 +12,7 @@ import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
 import KeysAndListProblem from './Component/3.KeysAndList/KeysAndListProblem';
+import KeysAndListSouction from './Component/3.KeysAndList/KeysAndListSouction';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 
 
       <KeysAndListProblem/>
+      <KeysAndListSouction/>
     </div>
   );
 }
