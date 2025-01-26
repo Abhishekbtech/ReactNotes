@@ -5,7 +5,7 @@ function KeysAndListProblem() {
 
     return (
         <>
-            <h1>KeysAndListProblem</h1>
+            <h1>Keys And List Problem</h1>
             <div>
                 <input id="inputBox" type="text" placeholder='Enter Student Name'/>
 
@@ -30,7 +30,7 @@ function KeysAndListProblem() {
                         padding: "10px",
                         }}
                     >
-                        student
+                        {student}
                     </div>
                 )
             }

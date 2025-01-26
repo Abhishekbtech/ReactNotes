@@ -11,6 +11,7 @@ import SessionStorage from './Component/1.Basic/6.DataStorage/SessionStorage';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
+import KeysAndListProblem from './Component/3.KeysAndList/KeysAndListProblem';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
       <ParentPTC/>
       <ParentCTP/>
       <ParentS/>
+
+
+      <KeysAndListProblem/>
     </div>
   );
 }
