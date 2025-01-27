@@ -13,6 +13,7 @@ import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
 import KeysAndListProblem from './Component/3.KeysAndList/KeysAndListProblem';
 import KeysAndListSouction from './Component/3.KeysAndList/KeysAndListSouction';
+import Forms from './Component/4.Forms/Forms';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
 
       <KeysAndListProblem/>
       <KeysAndListSouction/>
+
+
+      <Forms/>
     </div>
   );
 }
