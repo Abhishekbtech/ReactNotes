@@ -14,6 +14,7 @@ import ParentS from './Component/2.Communication/3.Sibling/ParentS';
 import KeysAndListProblem from './Component/3.KeysAndList/KeysAndListProblem';
 import KeysAndListSouction from './Component/3.KeysAndList/KeysAndListSouction';
 import Forms from './Component/4.Forms/Forms';
+import HookUseEffect from './Component/5.HookUseEffect/HookUseEffect';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
 
 
       <Forms/>
+
+
+      <HookUseEffect/>
     </div>
   );
 }

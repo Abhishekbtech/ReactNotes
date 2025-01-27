@@ -30,16 +30,11 @@ function HookUseEffect() {
 
     useEffect(() => {
         console.log('update Effect ran');
-
-        return () => {
-        console.log('update Cleanup ran');
-        };
     }, [count]);
 
-    console.log("render")
     return (
         <>
-            <h1>HookUseEffect</h1>
+            <h1>UseEffect Hook</h1>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment</button>
         </>   
