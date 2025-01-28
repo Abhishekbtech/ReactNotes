@@ -15,6 +15,7 @@ import KeysAndListProblem from './Component/3.KeysAndList/KeysAndListProblem';
 import KeysAndListSouction from './Component/3.KeysAndList/KeysAndListSouction';
 import Forms from './Component/4.Forms/Forms';
 import HookUseEffect from './Component/5.HookUseEffect/HookUseEffect';
+import DigitalClock from './Component/6.DigitalClock/DigitalClock';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
 
 
       <HookUseEffect/>
+
+
+      <DigitalClock/>
     </div>
   );
 }
