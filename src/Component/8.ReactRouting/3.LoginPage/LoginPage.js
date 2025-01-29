@@ -25,7 +25,7 @@ function LoginPage() {
 
     return (
         <>
-            <h1>LoginPage</h1>
+            <h2>LoginPage</h2>
             <label htmlFor="email">Email address <span style={{ color: "red" }}>*</span></label>
             <br/>
             <input
