@@ -13,7 +13,7 @@ function UserData() {
 
     return (
         <>
-            <h1>User Data</h1>
+            <h2>User Data</h2>
             <img src={photo} alt='image'/>
             <h2>{data.fullName}</h2>
             <h3>{data.email}</h3>
