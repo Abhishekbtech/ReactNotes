@@ -5,7 +5,7 @@ function Line() {
     const { id } = useParams()
     return (
         <>
-            <h1>Line  {id}</h1>
+            <h2>Line  {id}</h2>
         </>
     )
 }
