@@ -30,7 +30,7 @@ function SingIn() {
 
     return (
         <>
-            <h1>Sing IN Page</h1>
+            <h2>Sing IN Page</h2>
             <form onSubmit={handleCreateAccount}>
                 <label htmlFor="fullname">Full Name <span style={{ color: "red" }}>*</span></label>
                 <br/>
