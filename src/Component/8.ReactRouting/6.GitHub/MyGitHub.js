@@ -12,9 +12,9 @@ function MyGitHub() {
 
     return (
         <>
-            <h1>My Github</h1>
-            <h2>Name :- {data.name}</h2>
-            <h3>UserName :- {data.login}</h3>
+            <h2>My Github</h2>
+            <h3>Name :- {data.name}</h3>
+            <h4>UserName :- {data.login}</h4>
             <p>Follower :- {data.followers}</p>
             <img src={data.avatar_url} alt="avatar" height='300px' width='300px'/>
         </>
