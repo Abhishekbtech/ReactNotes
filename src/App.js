@@ -17,6 +17,7 @@ import Forms from './Component/4.Forms/Forms';
 import HookUseEffect from './Component/5.HookUseEffect/HookUseEffect';
 import DigitalClock from './Component/6.DigitalClock/DigitalClock';
 import CounterClassComponent from './Component/7.ClassComponent/2.Counter/Count';
+import ReactRouter from './Component/8.ReactRouting/ReactRouter';
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
 
       <DigitalClock/>
       <CounterClassComponent/>
+
+      <ReactRouter/>
     </div>
   );
 }

@@ -14,7 +14,7 @@ function ReactRouter() {
         <Router>
             <h1>React Router</h1>
             <nav>
-                <NavLink to='/' style={{margin:10}} activeStyle={{color: 'yellow', textDecoration: 'underline'}}>Home</NavLink>
+                <NavLink to='/' style={{margin:10}}>Home</NavLink>
                 <NavLink to='/singIn' style={{margin:10}}>Sing In</NavLink>
                 <NavLink to='/login'style={{margin:10}}>Log In</NavLink>
                 <NavLink to='/about'style={{margin:10}}>About</NavLink>
