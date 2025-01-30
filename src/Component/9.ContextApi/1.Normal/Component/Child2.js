@@ -18,7 +18,7 @@ function Child2({ count }) {
 
     return (
         <>
-            <h1>Child2</h1>
+            <h2>Child2</h2>
             <h2>Age: {age}</h2>
             <button onClick={handlingIncrement}>Increment Age</button>
             <button onClick={handlingDecrement}>Decrement Age</button>
