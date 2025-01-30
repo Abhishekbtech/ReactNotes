@@ -19,6 +19,7 @@ import DigitalClock from './Component/6.DigitalClock/DigitalClock';
 import CounterClassComponent from './Component/7.ClassComponent/2.Counter/Count';
 import ReactRouter from './Component/8.ReactRouting/ReactRouter';
 import MainContext from './Component/9.ContextApi/1.Normal/Component/MainContext';
+import CREDwithLo from './Component/9.ContextApi/3.CRED/CREDwithLo';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
 
 
       <MainContext/>
+      <CREDwithLo/>
     </div>
   );
 }
