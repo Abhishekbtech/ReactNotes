@@ -1,10 +1,10 @@
-import React,{useContext} from 'react'
+import React from 'react'
 
 function Child1({count}) {
     
     return (
         <>
-            <h1>Child1 {count}</h1>
+            <h2>Child1 {count}</h2>
         </>
     )
 }
