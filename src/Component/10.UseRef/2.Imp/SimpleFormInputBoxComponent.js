@@ -1,4 +1,4 @@
-import React,{ useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 function SimpleFormInputBoxComponent() {
     const inputBoxReference = useRef();
@@ -11,15 +11,15 @@ function SimpleFormInputBoxComponent() {
     return (
         <>
             <h1>SimpleFormInputBoxComponent</h1>
-        
+
             <input
                 ref={inputBoxReference}
                 id="inputbox"
-                onChange={() => {}}
+                onChange={() => { }}
                 type="text"
                 placeholder="enter message"
             />
-       
+
         </>
     );
 }
