@@ -1,4 +1,4 @@
-import React,{ useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Input from './Input';
 
 function InputComponentForm() {
@@ -12,8 +12,8 @@ function InputComponentForm() {
     console.log(inputBoxReference, "2");
     return (
         <>
-        <h1>Input component form</h1>
-        <Input ref={inputBoxReference} asd={inputBoxReference} />
+            <h1>Input component form</h1>
+            <Input ref={inputBoxReference} asd={inputBoxReference} />
         </>
     );
 }
