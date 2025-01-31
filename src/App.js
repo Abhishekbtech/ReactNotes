@@ -8,6 +8,7 @@ import MultipleState from './Component/1.Basic/5.MultipleState/MultipleState';
 import SingleState from './Component/1.Basic/5.MultipleState/SingleState';
 import LocalStorage from './Component/1.Basic/6.DataStorage/LocalStorage';
 import SessionStorage from './Component/1.Basic/6.DataStorage/SessionStorage';
+import BasicRef from './Component/10.UseRef/1.Basic/BasicRef';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
@@ -58,6 +59,9 @@ function App() {
 
       <MainContext/>
       <CREDwithLo/>
+
+
+      <BasicRef/>
     </div>
   );
 }

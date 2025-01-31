@@ -8,10 +8,10 @@ function BasicRef() {
     console.log(ref)
     
     function onClickHandler() {
-        console.log("---------- PREV VALUE ---------", ref.current);
+        console.log("--------- PREV VALUE --------", ref.current);
         ref.current = ref.current + 1;
     
-        console.log("---------- Updated VALUE ---------", ref.current);
+        console.log("--------- Updated VALUE --------", ref.current);
     }
 
     return (
