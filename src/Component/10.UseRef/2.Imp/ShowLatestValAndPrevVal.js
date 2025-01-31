@@ -2,9 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 function ShowLatestValAndPrevVal() {
     const [counterVal, setCounterVal] = useState(0);
-
     const ref = useRef(-1);
-    // console.log(ref)
 
     useEffect(() => {
         ref.current = counterVal;
