@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Input(props, ref) {
-    const { asd } = props;
     return (
         <div
             style={{
@@ -14,10 +13,10 @@ function Input(props, ref) {
             <input
                 ref={ref}
                 style={{
-                width: "500px",
-                height: "20px",
-                border: "1px solid black",
-                borderRadius: "8px",
+                    width: "500px",
+                    height: "20px",
+                    border: "1px solid black",
+                    borderRadius: "8px",
                 }}
                 type="text"
             />
