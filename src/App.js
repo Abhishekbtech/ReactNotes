@@ -9,6 +9,7 @@ import SingleState from './Component/1.Basic/5.MultipleState/SingleState';
 import LocalStorage from './Component/1.Basic/6.DataStorage/LocalStorage';
 import SessionStorage from './Component/1.Basic/6.DataStorage/SessionStorage';
 import BasicRef from './Component/10.UseRef/1.Basic/BasicRef';
+import CounterReducer from './Component/11.UseReduce/CounterReducer';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
@@ -62,6 +63,9 @@ function App() {
 
 
       <BasicRef/>
+
+
+      <CounterReducer/>
     </div>
   );
 }

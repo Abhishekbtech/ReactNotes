@@ -26,8 +26,6 @@ const reducerFunction = (state, action) => {
 }
 
 const defaultVale = {
-    name: "Abhishek",
-    age: 24,
     counter: 0
 }
 
@@ -37,8 +35,6 @@ function CounterReducer() {
     return (
         <>
             <h1>Counter Reducer App</h1>
-            <p>Name: {state.name}</p>
-            <p>Age: {state.age}</p>
             <p>Counter: {state.counter}</p>
             <button onClick={() => dispatch({ type: "increment" })}>Increment</button>
             <button onClick={() => dispatch({ type: "DECREMENT" })}>Decrement</button>
