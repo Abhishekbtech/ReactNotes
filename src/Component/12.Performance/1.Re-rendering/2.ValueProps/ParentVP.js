@@ -5,14 +5,10 @@ function ParentVP() {
     const [count, setCount] = useState(0)
     console.log('parent')
     const arr = useMemo(()=> [1, 2, 3, 4], [])
-    // const arr = [1, 2, 3, 4]
-    // const obj = {
-    //     name: 'abhi'
-    // }
 
     return (
         <>
-            <h1>Parent</h1>
+            <h1>Performance with useMemo</h1>
             <h2>Count: {count}</h2>
             <button onClick={() => setCount((old) => old + 1)}>Click me</button>
             <ChildVP arr={arr}/>
