@@ -1,13 +1,14 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 const Home = lazy(() => import('./Home'));
 const About = lazy(() => import('./About'));
 
-function App() {
+function Lazy() {
     return (
         <Router>
             <div>
+                <h1>React Lazy example</h1>
                 <nav>
                     <ul>
                         <li>
@@ -18,6 +19,8 @@ function App() {
                         </li>
                     </ul>
                 </nav>
+
+
 
                 <Suspense fallback={<div>Loading...</div>}>
                     <Routes>
@@ -30,4 +33,4 @@ function App() {
     );
 }
 
-export default App;
+export default Lazy;
