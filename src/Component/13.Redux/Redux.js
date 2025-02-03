@@ -8,7 +8,7 @@ import Todo from './Component/Todo'
 function Redux() {
     return (
         <Provider store={store}>
-            <div>To Do List With Redux ToolKit</div>
+            <h1>To Do List With Redux ToolKit</h1>
             <AddToDo/>
             <Todo/>
         </Provider>

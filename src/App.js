@@ -14,6 +14,7 @@ import ParentPer from './Component/12.Performance/1.Re-rendering/1.NoProps/Paren
 import ParentVP from './Component/12.Performance/1.Re-rendering/2.ValueProps/ParentVP';
 import ParentFP from './Component/12.Performance/1.Re-rendering/3.FunctionalProps/ParentFP';
 import Lazy from './Component/12.Performance/2.React.lazy/Lazy';
+import Redux from './Component/13.Redux/Redux';
 import ParentPTC from './Component/2.Communication/1.ParentToChild/ParentPTC';
 import ParentCTP from './Component/2.Communication/2.ChildToParent/ParentCTP';
 import ParentS from './Component/2.Communication/3.Sibling/ParentS';
@@ -76,6 +77,9 @@ function App() {
       <ParentVP/>
       <ParentFP/>
       <Lazy/>
+
+
+      <Redux/>
     </div>
   );
 }
